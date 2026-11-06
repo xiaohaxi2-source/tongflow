@@ -20,6 +20,7 @@ export * from "./constants/media-node-max-width";
 export * from "./constants/media-options";
 export * from "./constants/modality-nodes";
 export * from "./constants/task-status";
+export * from "./ecommerce";
 export * from "./generated/abi/index";
 export * from "./logger";
 export * from "./registry/feature-registry";

@@ -247,5 +247,41 @@
         "retry": "다시 시도",
         "operationFailed": "작업에 실패했습니다. 다시 시도해 주세요",
         "fetchFailed": "포트폴리오를 불러오지 못했습니다. 다시 시도해 주세요"
+    },
+    "Ecommerce": {
+        "open": "이커머스 템플릿",
+        "title": "이커머스 빠른 템플릿",
+        "description": "현재 캔버스에 상품/메인/장면 그래프를 놓습니다. 기존 노드, 비디오, Agent, OCR, 플러그인 목록은 그대로입니다.",
+        "preset": "프롬프트 프리셋",
+        "slots": "슬롯",
+        "slotsHint": "비워 두면 중괄호 자리표시자가 남습니다(이름은 라벨에 표시). 입력하면 중국어와 영어가 함께 바뀝니다.",
+        "lead": "프롬프트 순서",
+        "leadZh": "중국어 먼저",
+        "leadEn": "English first",
+        "heroPath": "메인 이미지 경로",
+        "heroFusion": "퓨전 (참고 이미지 2장 이상)",
+        "heroEdit": "이미지 편집 (참고 이미지 1장)",
+        "heroText": "텍스트만 초안 (참고 없음, 일치도가 약함)",
+        "includeMatting": "누끼 노드도 놓기 (fal / replicate 등 image-matting 플러그인 필요)",
+        "includeUpscale": "업스케일 노드도 놓기",
+        "includeStyle": "스타일 참고 Image3 (style_ref) 포함",
+        "includePolish": "퓨전 결과를 이미지 편집으로 다듬기",
+        "apply": "이 캔버스에 놓기",
+        "applied": "{id} 을(를) 추가했습니다",
+        "how": "각 참고 이미지 왼쪽이 업로드 노드입니다. 업로드하면 연결된 이미지 노드에 기록되고, 그다음 생성 노드를 실행합니다.",
+        "gapTitle": "알려진 빈틈",
+        "gapMatting": "tongflow-api-openai / gemini / bytedance 는 image-matting 을 선언하지 않습니다. 기본 경로는 흰 배경 이미지 편집입니다.",
+        "gapFusion": "imageFusionNode 는 파일이 있는 업스트림 이미지가 2장이 될 때까지 실행할 수 없습니다. 1장이면 이미지 편집을 사용하세요.",
+        "gapSize": "정사각 선택기의 기준은 1024×1024 입니다. 800×800 은 targetSize 로만 기록되며 sharp 리사이즈 노드는 없습니다.",
+        "gapSku": "Product / SKU / 채택 테이블은 만들지 않았습니다. 즐겨찾기는 정식 채택 상태가 아닙니다.",
+        "cutoutNote": "이 프리셋은 imageMattingNode 다음에 흰 배경 편집을 연결합니다. 누끼 플러그인이 없으면 실행할 수 없으니 흰 배경 프리셋을 사용하세요.",
+        "templates": {
+            "product": "상품 이미지",
+            "productHint": "흰 배경",
+            "hero": "메인 이미지",
+            "heroHint": "소구점",
+            "scene": "장면 이미지",
+            "sceneHint": "참고 역할"
+        }
     }
 }
