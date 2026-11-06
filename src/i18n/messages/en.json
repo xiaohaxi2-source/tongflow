@@ -247,5 +247,41 @@
         "retry": "Retry",
         "operationFailed": "Operation failed, please try again",
         "fetchFailed": "Failed to load portfolio, please retry"
+    },
+    "Ecommerce": {
+        "open": "Ecommerce templates",
+        "title": "Ecommerce quick templates",
+        "description": "Drop a product, hero, or scene graph onto the current canvas. Existing nodes, video, Agent, OCR, and the plugin catalog stay.",
+        "preset": "Prompt preset",
+        "slots": "Slots",
+        "slotsHint": "Leave a slot empty to keep its brace placeholder (the name is on the label). A filled slot replaces both languages.",
+        "lead": "Prompt order",
+        "leadZh": "Chinese first",
+        "leadEn": "English first",
+        "heroPath": "Hero path",
+        "heroFusion": "Fusion (at least 2 reference images)",
+        "heroEdit": "Image edit (only 1 reference image)",
+        "heroText": "Text-only draft (no reference, weak consistency)",
+        "includeMatting": "Also drop a matting node (needs an image-matting plugin such as fal / replicate)",
+        "includeUpscale": "Also drop an upscale node",
+        "includeStyle": "Include style reference Image3 (style_ref)",
+        "includePolish": "Polish the fusion result with image edit",
+        "apply": "Drop on this canvas",
+        "applied": "Added {id}",
+        "how": "Each reference has an upload node on its left. After upload the file is written into the connected image node; then run the generator. Nodes stay editable.",
+        "gapTitle": "Known gaps",
+        "gapMatting": "tongflow-api-openai / gemini / bytedance do not declare image-matting. The default path is a white-background image edit. Matting is optional.",
+        "gapFusion": "imageFusionNode cannot run until two upstream image nodes have files. With one reference, use image edit.",
+        "gapSize": "The square picker baseline is 1024×1024. 800×800 is stored as targetSize. There is no sharp resize node here.",
+        "gapSku": "Product / SKU / adoption tables are not created. Favorites are not a formal adoption state.",
+        "cutoutNote": "This preset wires imageMattingNode first, then a white-background edit. Without a matting plugin that chain cannot run — use the white-minimal preset.",
+        "templates": {
+            "product": "Product image",
+            "productHint": "White background",
+            "hero": "Hero image",
+            "heroHint": "Selling points",
+            "scene": "Scene image",
+            "sceneHint": "Reference roles"
+        }
     }
 }

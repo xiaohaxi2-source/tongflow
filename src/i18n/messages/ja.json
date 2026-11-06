@@ -247,5 +247,41 @@
         "retry": "再試行",
         "operationFailed": "操作に失敗しました。もう一度お試しください",
         "fetchFailed": "ポートフォリオの取得に失敗しました。再試行してください"
+    },
+    "Ecommerce": {
+        "open": "ECテンプレート",
+        "title": "ECクイックテンプレート",
+        "description": "商品画像・メイン画像・シーン画像を現在のキャンバスに追加します。既存ノード、動画、Agent、OCR、プラグイン一覧はそのままです。",
+        "preset": "プロンプトプリセット",
+        "slots": "スロット",
+        "slotsHint": "空欄のままにすると波括弧のプレースホルダが残ります（名前はラベルに表示）。入力すると中英両文を置換します。",
+        "lead": "プロンプトの順序",
+        "leadZh": "中国語を先に",
+        "leadEn": "English first",
+        "heroPath": "メイン画像の経路",
+        "heroFusion": "融合（参照画像が2枚以上）",
+        "heroEdit": "画像編集（参照画像が1枚）",
+        "heroText": "テキストのみの下書き（参照なし、一致は弱い）",
+        "includeMatting": "切り抜きノードも置く（fal / replicate などの image-matting プラグインが必要）",
+        "includeUpscale": "アップスケールノードも置く",
+        "includeStyle": "スタイル参照 Image3（style_ref）を含める",
+        "includePolish": "融合結果を画像編集で整える",
+        "apply": "このキャンバスに置く",
+        "applied": "{id} を追加しました",
+        "how": "各参照の左がアップロードノードです。アップロードすると接続済みの画像ノードに書き込まれ、その後生成ノードを実行します。",
+        "gapTitle": "既知のギャップ",
+        "gapMatting": "tongflow-api-openai / gemini / bytedance は image-matting を宣言していません。既定は白背景の画像編集です。",
+        "gapFusion": "imageFusionNode はファイル付きの上流画像が2枚になるまで実行できません。1枚なら画像編集を使います。",
+        "gapSize": "正方形ピッカーの基準は 1024×1024 です。800×800 は targetSize に記録するだけで、sharp のリサイズノードはありません。",
+        "gapSku": "Product / SKU / 採用テーブルは未作成です。お気に入りは正式な採用状態ではありません。",
+        "cutoutNote": "このプリセットは imageMattingNode のあと白背景編集につなぎます。切り抜きプラグインが無いと実行できないので、白背景プリセットを使ってください。",
+        "templates": {
+            "product": "商品画像",
+            "productHint": "白背景",
+            "hero": "メイン画像",
+            "heroHint": "訴求",
+            "scene": "シーン画像",
+            "sceneHint": "参照の役割"
+        }
     }
 }

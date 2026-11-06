@@ -21,6 +21,7 @@ import {
     TooltipContent,
     TooltipTrigger,
 } from "tongflow/canvas";
+import { EcommercePanel } from "@/components/workspace/ecommerce/ecommerce-panel";
 import { PortfolioDialog } from "@/components/workspace/portfolio-dialog";
 import { WorkflowDialog } from "@/components/workspace/workflow-dialog";
 import { localizeStoredTaskError } from "@/lib/task/error-localize";
@@ -137,6 +138,9 @@ export function WorkspaceLeftNav() {
                         </Button>
                     }
                 />
+
+                {/* Ecommerce templates — additive shortcut, not a catalog change */}
+                <EcommercePanel />
             </div>
 
             {/* Task list sidebar */}

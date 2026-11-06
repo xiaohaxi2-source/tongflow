@@ -1,0 +1,27 @@
+export {
+    canonicalTemplateId,
+    composeBilingualPrompt,
+    defaultPresetId,
+    ECOM_FOLLOW_UP_TABLES,
+    ECOM_KNOWN_GAPS,
+    ECOM_PRESETS,
+    ECOM_SCENE_CONTEXT_ALIAS,
+    ECOM_SLOTS,
+    ECOM_TEMPLATE_IDS,
+    type EcommerceTemplateId,
+    type PromptPreset,
+    presetById,
+    presetsFor,
+    renderPromptBody,
+    type SlotDef,
+    slotsFor,
+} from "./prompt-presets";
+export {
+    applyEcommerceTemplate,
+    type BuildEcommerceTemplateArgs,
+    buildEcommerceTemplate,
+    type EcommerceFlowApi,
+    type EcommerceGraph,
+    type HeroPath,
+    preferredPluginId,
+} from "./templates";
